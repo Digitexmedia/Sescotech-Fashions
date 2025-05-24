@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sescotech Fashions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1600x600?text=Sescotech+Fashions') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: 700;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .product {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 0.5rem;
+    }
+    .product p {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    .product button {
+      margin: 0.5rem 0;
+      padding: 0.5rem 1rem;
+      background-color: #222;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sescotech Fashions</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section class="hero" id="home">
+    <div>Style Meets Elegance</div>
+  </section>  <section class="section" id="shop">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300?text=Men's+Sneakers" alt="Men's Sneakers">
+        <h3>Men's Sneakers</h3>
+        <p>$49.99</p>
+        <button onclick="window.location.href='https://www.pesapal.com/iframe/?amount=49.99&description=Men+Sneakers&currency=USD'">Buy with PesaPal</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300?text=Women's+Dress" alt="Women's Dress">
+        <h3>Women's Dress</h3>
+        <p>$59.99</p>
+        <button onclick="window.location.href='https://www.pesapal.com/iframe/?amount=59.99&description=Women+Dress&currency=USD'">Buy with PesaPal</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300?text=Kids+Shoes" alt="Kids Shoes">
+        <h3>Kids Shoes</h3>
+        <p>$29.99</p>
+        <button onclick="window.location.href='https://www.pesapal.com/iframe/?amount=29.99&description=Kids+Shoes&currency=USD'">Buy with PesaPal</button>
+      </div>
+    </div>
+  </section>  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Sescotech Fashions is your go-to online store for trendy and affordable clothes and shoes. Serving both local and international clients with secure PesaPal payments and reliable shipping.</p>
+  </section>  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@sescotechfashions.com | Phone: +254-700-123-456</p>
+  </section>  <footer class="footer">
+    &copy; 2025 Sescotech Fashions. All rights reserved.
+  </footer>
+</body>
+</html>
